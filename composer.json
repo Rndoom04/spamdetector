@@ -1,6 +1,6 @@
 {
     "name": "rndoom04/spamdetector",
-    "description": "A library detecting spam in forms or other strings.",
+    "description": "A library detecting spam in forms or other strings. Friendly use with clear PHP, Nette framework, etc..",
     "license": "MIT",
     "authors": [
         {
