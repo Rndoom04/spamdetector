@@ -1,7 +1,7 @@
 <?php
     /*
      * SpamDetector by Kollert Slavomír
-     * version: 1.0
+     * version: 1.01
      * release date: 16.2.2022
      */
 
@@ -170,6 +170,8 @@
                 "tinyurl.com",
                 "is.gs/",
                 "is.gd/",
+                ".php",
+                ".html"
             ];
         }
         private function initForbiddenWords() {
@@ -189,7 +191,15 @@
                 "in PM",
                 " limited", // Space purposely
                 "next 24 hours",
-                "database"
+                "database",
+                "??????",
+                "?? ??",
+                "XRumer",
+                "XEvil",
+                "CMS",
+                "Wordpress",
+                "WooCommerce",
+                "fetish",
             ];
         }
     }
